@@ -21,7 +21,7 @@ class TextViewViewController: UIViewController {
         markdownView.isSelectable = true
         view.addSubview(markdownView)
         
-        markdownView.frame = CGRectMake(10, 100, UIScreen.main.bounds.width-20, 300)
+        markdownView.frame = CGRectMake(10, 100, UIScreen.main.bounds.width-20, UIScreen.main.bounds.height-120)
         
         setupMarkdown()
     }
